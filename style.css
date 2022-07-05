@@ -1,0 +1,144 @@
+/* This is my first website/landing page as a beginner. */
+*{
+    margin:0;
+    padding:0;
+}
+.navigation{
+    background-color: rgb(123, 127, 160);
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 0px 200px;
+}
+nav ul {
+    display:flex;
+    list-style-type: none;
+    justify-content:flex-end;
+    gap: 20px;
+}
+nav a{
+    text-decoration:none;
+    color:black;
+}
+nav a:hover{
+    color:blue;
+    text-decoration: solid;
+}
+.logo{
+    height:50px;
+}
+.container1{
+background:rgb(123, 127, 160);
+display :flex;
+padding: 100px 200px;
+justify-content: space-between;
+gap:20px;
+}
+
+h3 {
+    white-space:wrap;
+    color:cream;
+}
+h1{
+    font-weight:900;
+    font-size:50px;
+}
+
+.introimg{
+    height:250px;
+}
+
+.button{
+    background-color:#dde3ec;
+    padding:10px 20px;
+    border-radius:10px ;
+    border:none;
+    margin-top:10px ;
+}
+
+.button:hover{
+    background-color: #5a5f67;
+    cursor:pointer;
+    width: 120px;
+
+}
+.Text{
+    font-size:30px;
+    text-align:center;
+    margin-top:20px;
+}
+.products{
+    display:flex;
+    justify-content: space-between;
+    padding:0,100px;
+    margin:50px;
+}
+.the_products{
+    max-width: 200px;
+    margin:20px;
+}
+.the_products h3 {
+    text-align:center;
+    font-size:bold;
+    
+   
+}
+.the_products a{
+    text-decoration:none;
+    color: black;
+}
+.the_products img{
+    height:200px;
+    width:200px;
+    border-radius: 30px;
+}
+.the_products img:hover{
+    height: 220px;
+    width:220px;
+    border-radius: 30px;
+    box-shadow : 3px 5px 4px rgb(123, 127, 160);
+}
+
+.quote{
+    background:rgb(123, 127, 160);
+    margin-top:50px ;
+    font-size: 35px;
+    padding:150px 100px;
+}
+blockquote{
+    font-size: 30px;
+}
+.cite{
+    text-align: right;
+    font-weight:bold;
+
+}
+.call2action {
+    background-color: #c8b4cc;
+    padding:50px 150px;
+    margin:50px 150px;
+    border-radius: 20px;
+  display:flex;
+ 
+    justify-content: space-between;
+}
+.call2action p {
+    color:blue;
+ 
+}
+.footer {
+    background:rgb(123, 127, 160);
+    padding:30px;
+}
+footer p{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
